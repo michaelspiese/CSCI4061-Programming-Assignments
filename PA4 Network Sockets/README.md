@@ -1,12 +1,7 @@
-
-[//]: # test machine: csel-kh4250-49 
-[//]: # group number: G41
-[//]: # name: Michael Spiese, Jack Vehmeier, Isaac Hein 
-[//]: # x500: spies046, vehme003, hein0540
-
 # Project 4 : Network Sockets
 ### Project Group Number: 41
 ### Group members: Michael Spiese (spies046), Jack Vehmeier (vehme003), Isaac Hein (hein0540) 
+### Test Machine: csel-kh4250-49
 
 ## Extra Credit
 The extra credit problems of a thread pool and transaction history were not implemented in this submission.
