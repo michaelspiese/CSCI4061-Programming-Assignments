@@ -1,12 +1,7 @@
-/* test machine: csel-vole-35
- * group number: G41
- * name: Michael Spiese, Jack Vehmeier, Isaac Hein
- * x500: spies046, vehme003, hein0540
- */
-
-# Project 1 : Parallel Multiway Merge Sort
+1# Project 1 : Parallel Multiway Merge Sort
 ### Project Group Number: 41
 ### Group members: Michael Spiese (spies046), Jack Vehmeier (vehme003), Isaac Hein (hein0540) 
+### Test Machine: csel-vole-35
 
 ## Individual Contributions
 All work on this project was done together as a group remotely. Michael shared his screen and typed
