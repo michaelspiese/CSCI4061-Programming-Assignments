@@ -1,4 +1,4 @@
-1# Project 1 : Parallel Multiway Merge Sort
+# Project 1 : Parallel Multiway Merge Sort
 ### Project Group Number: 41
 ### Group members: Michael Spiese (spies046), Jack Vehmeier (vehme003), Isaac Hein (hein0540) 
 ### Test Machine: csel-vole-35
