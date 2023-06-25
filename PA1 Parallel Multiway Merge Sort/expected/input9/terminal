@@ -1,0 +1,4 @@
+$ make run9
+./master input9.file
+ERROR: Assumption violation: Degree (10) of a depth (1) should be between 1 and 9.
+make: *** [run9] Error 1

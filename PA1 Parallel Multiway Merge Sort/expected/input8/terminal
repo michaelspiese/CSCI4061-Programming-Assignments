@@ -1,0 +1,4 @@
+$ make run8
+./master input8.file
+ERROR: Assumption violation: N. leaf nodes (7) is greater than N. Data (5).
+make: *** [run8] Error 1

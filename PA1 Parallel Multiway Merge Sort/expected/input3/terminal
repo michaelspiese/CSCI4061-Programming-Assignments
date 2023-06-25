@@ -1,0 +1,39 @@
+$ make run3
+./master input3.file
+Parent [master] - Spawn Child [1, 1, 0, 10, 11]
+Parent [master] - Spawn Child [1, 2, 11, 22, 12]
+Parent [1] - Spawn Child [2, 11, 0, 4, 5]
+Parent [2] - Spawn Child [2, 21, 11, 16, 6]
+Parent [1] - Spawn Child [2, 12, 5, 10, 6]
+Parent [2] - Spawn Child [2, 22, 17, 22, 6]
+Parent [11] - Spawn Child [3, 111, 0, 0, 1]
+Parent [21] - Spawn Child [3, 211, 11, 12, 2]
+Parent [12] - Spawn Child [3, 121, 5, 6, 2]
+Parent [22] - Spawn Child [3, 221, 17, 18, 2]
+Parent [11] - Spawn Child [3, 112, 1, 1, 1]
+Parent [21] - Spawn Child [3, 212, 13, 14, 2]
+Parent [22] - Spawn Child [3, 222, 19, 20, 2]
+Parent [11] - Spawn Child [3, 113, 2, 4, 3]
+Parent [12] - Spawn Child [3, 122, 7, 8, 2]
+Parent [21] - Spawn Child [3, 213, 15, 16, 2]
+Parent [12] - Spawn Child [3, 123, 9, 10, 2]
+Parent [22] - Spawn Child [3, 223, 21, 22, 2]
+Process [111] - Quick Sort - Done
+Process [121] - Quick Sort - Done
+Process [211] - Quick Sort - Done
+Process [112] - Quick Sort - Done
+Process [221] - Quick Sort - Done
+Process [222] - Quick Sort - Done
+Process [212] - Quick Sort - Done
+Process [122] - Quick Sort - Done
+Process [113] - Quick Sort - Done
+Process [223] - Quick Sort - Done
+Process [213] - Quick Sort - Done
+Process [123] - Quick Sort - Done
+Process [11] - Merge Sort - Done
+Process [22] - Merge Sort - Done
+Process [21] - Merge Sort - Done
+Process [12] - Merge Sort - Done
+Process [2] - Merge Sort - Done
+Process [1] - Merge Sort - Done
+Process [master] - Merge Sort - Done

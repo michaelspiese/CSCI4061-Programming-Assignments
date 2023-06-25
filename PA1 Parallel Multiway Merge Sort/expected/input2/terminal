@@ -1,0 +1,21 @@
+$ make run2
+./master input2.file
+Parent [master] - Spawn Child [1, 1, 0, 1, 2]
+Parent [master] - Spawn Child [1, 2, 2, 3, 2]
+Parent [master] - Spawn Child [1, 3, 4, 5, 2]
+Parent [master] - Spawn Child [1, 4, 6, 7, 2]
+Parent [master] - Spawn Child [1, 5, 8, 9, 2]
+Parent [master] - Spawn Child [1, 6, 10, 11, 2]
+Parent [master] - Spawn Child [1, 7, 12, 13, 2]
+Parent [master] - Spawn Child [1, 8, 14, 15, 2]
+Parent [master] - Spawn Child [1, 9, 16, 22, 7]
+Process [8] - Quick Sort - Done
+Process [9] - Quick Sort - Done
+Process [3] - Quick Sort - Done
+Process [1] - Quick Sort - Done
+Process [4] - Quick Sort - Done
+Process [2] - Quick Sort - Done
+Process [6] - Quick Sort - Done
+Process [5] - Quick Sort - Done
+Process [7] - Quick Sort - Done
+Process [master] - Merge Sort - Done

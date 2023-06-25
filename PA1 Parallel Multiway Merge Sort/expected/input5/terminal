@@ -1,0 +1,125 @@
+$ make run5
+./master input5.file
+Parent [master] - Spawn Child [1, 1, 0, 999, 1000]
+Parent [1] - Spawn Child [2, 11, 0, 499, 500]
+Parent [1] - Spawn Child [2, 12, 500, 999, 500]
+Parent [11] - Spawn Child [3, 111, 0, 499, 500]
+Parent [12] - Spawn Child [3, 121, 500, 999, 500]
+Parent [111] - Spawn Child [4, 1111, 0, 249, 250]
+Parent [121] - Spawn Child [4, 1211, 500, 749, 250]
+Parent [121] - Spawn Child [4, 1212, 750, 999, 250]
+Parent [111] - Spawn Child [4, 1112, 250, 499, 250]
+Parent [1111] - Spawn Child [5, 11111, 0, 249, 250]
+Parent [1211] - Spawn Child [5, 12111, 500, 749, 250]
+Parent [1212] - Spawn Child [5, 12121, 750, 999, 250]
+Parent [1112] - Spawn Child [5, 11121, 250, 499, 250]
+Parent [12111] - Spawn Child [6, 121111, 500, 624, 125]
+Parent [11111] - Spawn Child [6, 111111, 0, 124, 125]
+Parent [12121] - Spawn Child [6, 121211, 750, 874, 125]
+Parent [11121] - Spawn Child [6, 111211, 250, 374, 125]
+Parent [12111] - Spawn Child [6, 121112, 625, 749, 125]
+Parent [11111] - Spawn Child [6, 111112, 125, 249, 125]
+Parent [12121] - Spawn Child [6, 121212, 875, 999, 125]
+Parent [11121] - Spawn Child [6, 111212, 375, 499, 125]
+Parent [111211] - Spawn Child [7, 1112111, 250, 374, 125]
+Parent [121112] - Spawn Child [7, 1211121, 625, 749, 125]
+Parent [121111] - Spawn Child [7, 1211111, 500, 624, 125]
+Parent [121211] - Spawn Child [7, 1212111, 750, 874, 125]
+Parent [111111] - Spawn Child [7, 1111111, 0, 124, 125]
+Parent [121212] - Spawn Child [7, 1212121, 875, 999, 125]
+Parent [111112] - Spawn Child [7, 1111121, 125, 249, 125]
+Parent [111212] - Spawn Child [7, 1112121, 375, 499, 125]
+Parent [1212111] - Spawn Child [8, 12121111, 750, 811, 62]
+Parent [1111121] - Spawn Child [8, 11111211, 125, 186, 62]
+Parent [1112111] - Spawn Child [8, 11121111, 250, 311, 62]
+Parent [1211121] - Spawn Child [8, 12111211, 625, 686, 62]
+Parent [1111121] - Spawn Child [8, 11111212, 187, 249, 63]
+Parent [1212121] - Spawn Child [8, 12121211, 875, 936, 62]
+Parent [1111111] - Spawn Child [8, 11111111, 0, 61, 62]
+Parent [1211121] - Spawn Child [8, 12111212, 687, 749, 63]
+Parent [1211111] - Spawn Child [8, 12111111, 500, 561, 62]
+Parent [1212111] - Spawn Child [8, 12121112, 812, 874, 63]
+Parent [1112111] - Spawn Child [8, 11121112, 312, 374, 63]
+Parent [1212121] - Spawn Child [8, 12121212, 937, 999, 63]
+Parent [1111111] - Spawn Child [8, 11111112, 62, 124, 63]
+Parent [1211111] - Spawn Child [8, 12111112, 562, 624, 63]
+Parent [1112121] - Spawn Child [8, 11121211, 375, 436, 62]
+Parent [1112121] - Spawn Child [8, 11121212, 437, 499, 63]
+Parent [12111111] - Spawn Child [9, 121111111, 500, 561, 62]
+Parent [12121211] - Spawn Child [9, 121212111, 875, 936, 62]
+Parent [11121111] - Spawn Child [9, 111211111, 250, 311, 62]
+Parent [12121111] - Spawn Child [9, 121211111, 750, 811, 62]
+Parent [11111212] - Spawn Child [9, 111112121, 187, 249, 63]
+Parent [11111211] - Spawn Child [9, 111112111, 125, 186, 62]
+Parent [12111211] - Spawn Child [9, 121112111, 625, 686, 62]
+Parent [12111212] - Spawn Child [9, 121112121, 687, 749, 63]
+Parent [11111111] - Spawn Child [9, 111111111, 0, 61, 62]
+Parent [12121112] - Spawn Child [9, 121211121, 812, 874, 63]
+Parent [12121212] - Spawn Child [9, 121212121, 937, 999, 63]
+Parent [12111112] - Spawn Child [9, 121111121, 562, 624, 63]
+Parent [11121211] - Spawn Child [9, 111212111, 375, 436, 62]
+Parent [11111112] - Spawn Child [9, 111111121, 62, 124, 63]
+Parent [11121112] - Spawn Child [9, 111211121, 312, 374, 63]
+Parent [11121212] - Spawn Child [9, 111212121, 437, 499, 63]
+Process [111112111] - Quick Sort - Done
+Process [111211111] - Quick Sort - Done
+Process [111111111] - Quick Sort - Done
+Process [121111111] - Quick Sort - Done
+Process [121212111] - Quick Sort - Done
+Process [121211121] - Quick Sort - Done
+Process [121112111] - Quick Sort - Done
+Process [11111211] - Merge Sort - Done
+Process [111112121] - Quick Sort - Done
+Process [11111111] - Merge Sort - Done
+Process [12111111] - Merge Sort - Done
+Process [11121111] - Merge Sort - Done
+Process [12121211] - Merge Sort - Done
+Process [121211111] - Quick Sort - Done
+Process [12121112] - Merge Sort - Done
+Process [121112121] - Quick Sort - Done
+Process [12111211] - Merge Sort - Done
+Process [11111212] - Merge Sort - Done
+Process [12121111] - Merge Sort - Done
+Process [12111212] - Merge Sort - Done
+Process [1111121] - Merge Sort - Done
+Process [1212111] - Merge Sort - Done
+Process [1211121] - Merge Sort - Done
+Process [111111121] - Quick Sort - Done
+Process [111212111] - Quick Sort - Done
+Process [111112] - Merge Sort - Done
+Process [111211121] - Quick Sort - Done
+Process [121111121] - Quick Sort - Done
+Process [121212121] - Quick Sort - Done
+Process [111212121] - Quick Sort - Done
+Process [121211] - Merge Sort - Done
+Process [121112] - Merge Sort - Done
+Process [11111112] - Merge Sort - Done
+Process [11121211] - Merge Sort - Done
+Process [11121112] - Merge Sort - Done
+Process [12111112] - Merge Sort - Done
+Process [12121212] - Merge Sort - Done
+Process [11121212] - Merge Sort - Done
+Process [1111111] - Merge Sort - Done
+Process [1112111] - Merge Sort - Done
+Process [1211111] - Merge Sort - Done
+Process [1212121] - Merge Sort - Done
+Process [1112121] - Merge Sort - Done
+Process [111111] - Merge Sort - Done
+Process [111211] - Merge Sort - Done
+Process [121111] - Merge Sort - Done
+Process [121212] - Merge Sort - Done
+Process [111212] - Merge Sort - Done
+Process [11111] - Merge Sort - Done
+Process [12111] - Merge Sort - Done
+Process [11121] - Merge Sort - Done
+Process [12121] - Merge Sort - Done
+Process [1111] - Merge Sort - Done
+Process [1112] - Merge Sort - Done
+Process [1211] - Merge Sort - Done
+Process [1212] - Merge Sort - Done
+Process [111] - Merge Sort - Done
+Process [121] - Merge Sort - Done
+Process [11] - Merge Sort - Done
+Process [12] - Merge Sort - Done
+Process [1] - Merge Sort - Done
+Process [master] - Merge Sort - Done

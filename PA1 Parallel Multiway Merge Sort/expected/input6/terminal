@@ -1,0 +1,4 @@
+$ make run6
+./master input6.file
+ERROR: Assumption violation: N. Data (0) should be between 1 and 1000.
+make: *** [run6] Error 1
