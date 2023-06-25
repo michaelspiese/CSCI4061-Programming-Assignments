@@ -1,12 +1,7 @@
-
-[//]: # test machine: csel-kh4250-49 
-[//]: # group number: G41
-[//]: # name: Michael Spiese, Jack Vehmeier, Isaac Hein 
-[//]: # x500: spies046, vehme003, hein0540
-
 # Project 3 : Multithreading
 ### Project Group Number: 41
 ### Group members: Michael Spiese (spies046), Jack Vehmeier (vehme003), Isaac Hein (hein0540) 
+### Test Machine: csel-kh4250-49 
 
 ## Extra Task
 Our group was able to implement the extra task of a bounded buffer for the shared queue.
